@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Fermatova spirala</title>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="PKS.js"></script>
+        <link rel="stylesheet" type="text/css" href="lepota.css"/>
+    </head>
+    <body onload="fermatSpirala();">
+
+        <header>
+            <figure>
+                <figcaption class="naslov">Prirodni koordinatni sustav u canvas elementu</figcaption>
+                <img src="slike/opm.png" width="184" height="50" usemap="#mapa">
+                <map name="mapa">
+                    <area href="index.html" 
+                          alt="pravokutnik" 
+                          shape="rect" 
+                          coords="0,0,184,50"/>
+            </figure> 
+        </header>
+
+        <canvas id="mojePlatno"></canvas>
+
+        <div id="promjena" style="float:left">    
+            <br><br>
+            <label>Visina platna (cm):</label>
+            <input id="heightPlatna" type="number" placeholder="Visina" min="0" value="10">
+            <br><br>
+            <label>Širina platna (cm):</label>
+            <input id="widthPlatna" type="number" placeholder="Širina" min="0" value="10">
+            <br><br>
+            <label>Translacija (°) :</label>
+            <input id="translacija" type="number" placeholder="Stupnjevi" min="-180"  max="180" value="0">
+            <br><br>
+            <label>Korak (max 6):</label>
+            <input id="korak" type="number" placeholder="x" max="6" min="0" step="0.01">
+        </div>
+
+    </body>
+</html>
+

@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Crtanje dužina</title>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="PKS.js"></script>
+        <link rel="stylesheet" type="text/css" href="lepota.css"/>
+    </head>
+    <body onload="crtanjeDuzina();">
+
+        <header>
+            <figure>
+                <figcaption class="naslov">Prirodni koordinatni sustav u canvas elementu</figcaption>
+                <img src="slike/opm.png" width="184" height="50" usemap="#mapa">
+                <map name="mapa">
+                    <area href="index.html" 
+                          alt="pravokutnik" 
+                          shape="rect" 
+                          coords="0,0,184,50"/>
+            </figure> 
+        </header>
+
+        <canvas id="mojePlatno"></canvas>
+
+        <div id="promjena" style="float:left">            
+            <br><br>
+            <label>Visina platna (cm):</label>
+            <input id="heightPlatna" type="number" placeholder="Visina" min="0" value="10">
+            <br><br>
+            <label>Širina platna (cm):</label>
+            <input id="widthPlatna" type="number" placeholder="Širina" min="0" value="10">
+            <br><br>
+            <label>A</label>
+            <br>
+            <label>x:</label>
+            <input id="Ax" type="number" placeholder="x">
+            <label style="width: 20px">y:</label>
+            <input id="Ay" type="number" placeholder="y" >
+            <br><br>
+            <label>B</label>
+            <br>
+            <label>x:</label>
+            <input id="Bx" type="number" placeholder="x">
+            <label style="width: 20px">y:</label>
+            <input id="By" type="number" placeholder="y">
+        </div>
+
+    </body>
+</html>

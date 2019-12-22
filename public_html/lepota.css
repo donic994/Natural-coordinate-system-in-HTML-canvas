@@ -1,0 +1,149 @@
+body{
+    margin: 0 0 0 0;
+    background-image:url("slike/uzorak.png");
+}
+
+header{
+    background-color: #3c3c3c;
+    margin: 0 0 0 0;
+    padding-bottom: 20px;
+    border-bottom: 5px solid;
+    -webkit-border-image: -webkit-gradient(linear, left top, right bottom, to(#03a9f4), from(#cddc39)) 50 90 190 20 ;
+    
+}
+.naslov{
+    background-color: #3c3c3c;
+    color: white;
+    font-size: 40px;    
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-family:"Helvetica";
+    padding-top: 20px;
+}
+figure{
+    margin:0 0 0 0;
+}
+
+.div {
+  margin: 20px;
+}
+ 
+#odabir  ul {
+  list-style-type: none;
+  width: 600px;
+  margin-left: 20px;
+  padding-left: 50px;
+  padding-top: 50px;
+  display: block;
+}
+ 
+#odabir h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+#odabir  h4{
+    font: bold 22px/1.5 Helvetica, Verdana, sans-serif;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+ 
+#odabir  li img {
+  float: left;
+  margin: 0 15px 0 0;
+  height: 300px;
+  width: 300px;
+}
+ 
+#odabir  li p {
+  font: bold 200 18px/1.5 Verdana, Helvetica, sans-serif;
+  color: forestgreen;
+}
+ 
+#odabir  li {
+  padding-left: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow: auto;
+  width: 600px;
+  background-color: #3c3c3c;
+  border-radius: 20px;
+  display: block;
+}
+ 
+#odabir  li:hover {
+  background: #575757;
+  cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+input[type=number], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=checkbox] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label{
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+    position:relative;
+    left:0%;
+
+}
+canvas{
+    margin: 20px 20px 20px 20px;
+}
+
+.start {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+.stop {
+    background-color: #af4c4c;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+.osvjezi {
+    background-color: #03a9f4;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}

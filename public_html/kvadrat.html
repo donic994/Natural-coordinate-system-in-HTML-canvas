@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kvadrat</title>
+
+    <link rel="stylesheet" type="text/css" href="lepota.css"/>
+  </head>
+  <body onload="zadKvadrat();">
+    <header>
+        <figure>
+            <figcaption class="naslov">Prirodni koordinatni sustav u canvas elementu</figcaption>
+            <img src="slike/opm.png" width="184" height="50" usemap="#mapa">
+            <map name="mapa">
+                <area href="index.html"
+                      alt="pravokutnik"
+                      shape="rect"
+                      coords="0,0,184,50"/>
+        </figure>
+    </header>
+
+      <canvas id="mojePlatno" height="500" width="500"></canvas>
+      <div id="promjena"  style="float:left">
+
+        <br>
+        <label>Točka kvadrata x (cm):</label>
+        <input id="kordinataX" type="number" placeholder="x" value="100">
+        <br>
+        <label>Točka kvadrata y (cm):</label>
+        <input id="kordinataY" type="number" placeholder="y"  value="100">
+        <br>
+        <label>Duljina stranica:</label>
+        <input id="duljinaStranica" type="number" placeholder="a"  value="50">
+        <br>
+        <label>Translacija:</label>
+        <br>
+        <label>x:</label>
+        <input id="translacijaX" type="number" placeholder="dx"  value="0">
+        <br>
+        <label>y:</label>
+        <input id="translacijaY" type="number" placeholder="dy"  value="0">
+        <br>
+        <label>Skaliranje:</label>
+        <br>
+        <label>x:</label>
+        <input id="skaliranjeX" type="number" placeholder="dx"  value="1" step="0.01">
+        <br>
+        <label>y:</label>
+        <input id="skaliranjeY" type="number" placeholder="dy"  value="1" step="0.01">
+        <br>
+        <label>Kut rotacije (stupnjevima):</label>
+        <input id="rotacija" type="number" placeholder=""  value="0">
+
+      </div>
+      <script type="text/javascript" src="MAT2D.js"></script>
+      <script type="text/javascript" src="PKS1.js"></script>
+      <script type="text/javascript" src="zadaci.js"></script>
+  </body>
+</html>
